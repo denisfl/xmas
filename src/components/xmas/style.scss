@@ -10,7 +10,7 @@ $b: '.xmas';
 #{$b}__image {
   width: 100%;
   height: auto;
-  max-height: 600px;
+  max-height: 500px;
 
   position: absolute;
 	top: 0;
@@ -18,7 +18,7 @@ $b: '.xmas';
   left: 0;
   right: 0;
 
-  background-image: url(/assets/images/xmas.svg);
+  background-image: url(../images/xmas.svg);
   background-repeat: no-repeat;
   background-position: bottom center;
   background-size: contain;

@@ -1,0 +1,36 @@
+body {
+  min-height: 100vh;
+  color: #555;
+  font-family: sans-serif;
+}
+
+.layout {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.layout__header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 43.75%;
+  z-index: 2;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.layout__main {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+
+  max-height: 600px;
+  overflow: hidden;
+}
